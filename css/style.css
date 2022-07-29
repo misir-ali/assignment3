@@ -1,0 +1,72 @@
+.green{
+    width: 1000px;
+    height: 600px;
+    background-color: green;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+}
+.green .red{
+    width: 270px;
+    height: 270px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 30%;
+    left: 37%;
+}
+.green .fb{
+    width: 230px;
+    height: 70px;
+    position: fixed;
+    top: 35%;
+    right: -165px;
+    transition: 0.5s;
+}
+.green .yt{
+    width: 230px;
+    height: 70px;
+    position: fixed;
+    top: 50%;
+    right: -165px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.green .fb:hover{
+    right: 0px;
+    transition: 0.5s;
+}
+.green .yt:hover{
+    right: -5px;
+    transition: 0.5s;
+}
+.Social-media{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 40px 20px;
+}
+.Social-media li{
+    list-style: none;
+    display: inline-block;
+}
+.Social-media li a{
+    font-size: 60px;
+    padding-left: 35px;
+    color: black;
+}
+.fbk:hover{
+    color: #4267B2;
+}
+.ytb:hover{
+    color: red;
+}
+.what:hover{
+    color: green;
+}
+.twt:hover{
+    color: rgb(29, 169, 229);
+}
+.inst:hover:hover{
+    color: salmon;
+}
